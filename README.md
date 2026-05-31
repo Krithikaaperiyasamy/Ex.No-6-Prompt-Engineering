@@ -12,37 +12,13 @@ Analyze the response and the Output.
 
 The aim is to understand how to request help from AI tools for tasks like writing Python code, integrating with APIs, comparing outputs, and generating actionable insights.
 
-Code:
-```
-from nltk.sentiment import SentimentIntensityAnalyzer
-import nltk
 
-nltk.download('vader_lexicon')
 
-# Simulated AI-generated text
-generated_text = "This smartphone offers outstanding battery life and an intelligent AI camera that captures stunning photos."
-
-print("Generated Review:\n")
-print(generated_text)
-
-# Sentiment analysis
-sia = SentimentIntensityAnalyzer()
-sentiment = sia.polarity_scores(generated_text)
-
-print("\nSentiment Analysis:")
-print(sentiment)
-
-# Insight generation
-if sentiment['compound'] > 0:
-    print("\nInsight: The review is positive and suitable for marketing promotion.")
-else:
-    print("\nInsight: The review tone is neutral or negative.")
-```
 Output:
 
-<img width="1198" height="173" alt="Screenshot 2026-05-31 142241" src="https://github.com/user-attachments/assets/5e51eb5b-96aa-416f-80b9-9cf822d35cdd" />
+https://drive.google.com/file/d/1cO6bJ7RgGKl2ql2cew5V_pYvVSZ9D2OS/view?usp=sharing
 
 
 Result: 
 
-The Python program was successfully developed and executed.
+The Python program was successfully developed and executed to integrate with multiple AI tools by interacting with their respective APIs
